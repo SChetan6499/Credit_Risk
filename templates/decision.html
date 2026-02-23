@@ -1,0 +1,18 @@
+<h2>Loan Decision</h2>
+
+<hr>
+
+<p><strong>Status:</strong> {{ app.loan_status }}</p>
+
+<p><strong>Risk Probability:</strong> 
+    {{ app.risk_probability|floatformat:2 }}
+</p>
+
+<hr>
+
+<p><strong>Decision Explanation:</strong></p>
+<p>{{ app.decision_reason }}</p>
+
+<br><br>
+
+<a href="/">Apply Another Loan</a>

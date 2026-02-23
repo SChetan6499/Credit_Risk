@@ -1,0 +1,9 @@
+db.sqlite3
+ai_engine/credit_model.pkl
+ai_engine/__pycache__
+
+credit_risk/__pycache__
+
+underwriting/migrations/__pycache__
+venv
+underwriting/__pycache__

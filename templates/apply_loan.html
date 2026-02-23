@@ -1,0 +1,13 @@
+<h2>Loan Application</h2>
+<form method="POST">
+  {% csrf_token %}
+  Name: <input type="text" name="name"><br><br>
+  Age: <input type="number" name="age"><br><br>
+  Income: <input type="number" name="income"><br><br>
+  Loan Amount: <input type="number" name="loan_amount"><br><br>
+  Credit Score: <input type="number" name="credit_score"><br><br>
+  Employment Years: <input type="number" name="employment_years"><br><br>
+  Existing Debt: <input type="number" name="existing_debt"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
